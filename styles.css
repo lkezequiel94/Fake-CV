@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#fuente-texto{
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fuente-titulo{
+    font-family: 'Alegreya', serif;
+}
+
+body{
+    position: relative;
+    background-color: #f3f4f5;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none
+}
+
+.container{
+    width: 1280px;
+    margin: auto;
+}
+
+.navbar{
+    width: 95%;
+    margin: auto;
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.nav-menu a:hover {
+    background-color: #f56f3a;
+    border-radius: 50px;
+    transition: background-color 0.5s;
+    padding: 3px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+section[id]{
+    scroll-margin-top: 70px;
+}
+
+.home{
+    height: fit-content;
+    margin-top: 70px;
+}
+
+.izq{
+    display: inline-block;
+    justify-content: center;
+    max-width: 50%;
+    height: fit-content;
+    margin: 50px;
+}
+
+.details {
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.izq img{
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    transition: width 0.5s, height 0.5s, margin 0.5s;
+}
+
+.izq img:hover {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#negrita{
+    text-decoration: underline;
+    text-decoration-color: grey;
+    font-weight: bold;
+}
+
+.columnas{
+    column-count:2;
+    column-gap:20px;
+    list-style: none;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.columnas p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulos {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.der{
+
+    display: inline-block;
+    max-width: 50%;
+    height: fit-content;
+    margin: 50px;
+
+    text-align: justify;
+    
+    padding: 10px;
+    margin: 10px;
+}
+
+.habilidades{
+    height: fit-content;
+    margin-top: 70px;
+    margin-top: 0;
+}
+
+.habilidades h1{
+    font-size: 22px;
+    text-decoration: underline;
+    padding: 10px;
+    margin: 0 50px 0 50px;
+}
+
+.habilidad{
+    margin: 0 50px 0 50px;
+}
+
+.experiencia{
+    height: fit-content;
+    margin-top: 70px;
+    margin-top: 0;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+}
+  
+.experiences-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 35px 0;
+}
+  
+.experience-date {
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--secundary-color);
+}
+  
+.experience-company {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+  
+.experience-position {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 20px;
+}
+  
+.experience-description {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.3;
+    word-wrap: break-word;
+}
+
+.experience-description p, .experience-company{
+    word-break: break-all;
+
+}
+  
+.experience {
+    padding: 25px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+  
+.experience-company {
+    font-size: 25px;
+}
+  
+.experience-position {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+  
+.experience_left {
+    text-align: right;
+}
+  
+.experiences-grid {
+    display: grid;
+    grid-template-columns: auto 2px auto;
+    gap: 20px 70px;
+    padding: 70px;
+    justify-content: center;
+    max-width: 980px;
+    margin: 0 auto;
+}
+  
+.line{
+    background-color: blue;
+}
+  
+.portafolio{
+    text-align: center;
+    background-color: #f3f4f5;
+}
+ 
+.gibhub img{
+    position: block;
+    width: 150px;
+    height: 100px;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer{
+    background-color: white;
+}
+  
+.wave{
+    width: 100%;
+}
+  
+.contacto .izq{
+    float: left;
+    margin: 0 0 0 100px;
+}
+
+.contacto h2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+  
+.contacto p{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 3px;
+}
+
+footer .der{
+    width: 800px;
+}
+
+.form{
+    width: 50%;
+    max-width: 400px;
+    border: 1px solid black;
+    margin: auto;
+    float: right;
+}
+
+.form-container{
+    width: fit-content;
+    text-align: center;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+
+.form_input{
+    font-family: inherit;
+}
+.form-input-mensaje{
+    resize: none;
+}
+
+
+.form-cta{
+    font-family: inherit;
+}
+
+@media(max-width:1280px){
+    .container{
+        width: 100%;
+    }
+    .experience-description{
+        font-size: 8px;
+    }
+}
